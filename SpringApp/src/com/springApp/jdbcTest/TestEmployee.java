@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class TestEmployee {
 
 	public static void main(String[] args) {
-		System.out.println("-->"+System.getProperty("java.class.path"));
+		//System.out.println("-->"+System.getProperty("java.class.path"));
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");
 		
