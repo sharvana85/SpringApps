@@ -14,6 +14,9 @@ public class TestEmployee {
 		
 		Employee employee = employeeDAO.findByEmployee(1);
         System.out.println("Employee A : " + employee);
+
+		Employee employee = employeeDAO.findByEmployee(2);
+        System.out.println("Employee A : " + employee);
         
         
 	}
